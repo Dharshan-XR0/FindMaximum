@@ -11,6 +11,8 @@ To write a program to find the maximum of a list of numbers.
 ## Program:
 
 i)	# To find the maximum of marks using the list method sort.
+
+
 ```Python
 #Program to to find the square root for the given number(newton's method) using function.
 #Developed by: DHARSHAN V
@@ -26,26 +28,39 @@ def max_marks(marks):
 ```
 
 ii)	# To find the maximum marks using the list method max().
+
+
 ```Python
+
+
 def max_marks(marks):
     large = max(marks)
     return large
 
 
 
+
+
 ```
 
 iii)#  To find the maximum marks without using builtin functions.
+
 ```Python
+
 def max_marks(list1):
     max1=list1[0]
     for i in list1:
         if i >max1:
             max1 = i
     return max1
+    
+    
+    
 ```
 ## Sample Input and Output
+
 ![output](./img/max_marks1.jpg) 
+
 
 ## Output:
 To find the maximum of marks using the list method sort.
