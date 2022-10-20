@@ -43,10 +43,6 @@ def max_marks(list1):
         if i >max1:
             max1 = i
     return max1
-    
-
-
-
 ```
 ## Sample Input and Output
 ![output](./img/max_marks1.jpg) 
